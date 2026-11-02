@@ -3,7 +3,7 @@
 把照片重绘成某种风格：上传一张照片，Agent 从 94 种风格里推荐合适的（或用你指定的），自动拉取这个风格作者的 Skill，再用 Agent 自己的生图能力画出来。不用自己找、自己装。
 
 ```
-npx skills add __OWNER__/photo-restyle
+npx skills add MuziGeek/photo-restyle
 ```
 
 装好后直接对 Agent 说：「把这张照片画成水彩明信片」或者「这张照片适合什么风格？帮我画一张」。
