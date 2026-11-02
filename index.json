@@ -1,0 +1,1744 @@
+{
+ "version": 2,
+ "generated_at": "2026-11-02T07:21:27.480Z",
+ "styles": [
+  {
+   "slug": "watercolor-travel-card",
+   "name": "打孔水彩旅行卡",
+   "form": "卡片与档案",
+   "summary": "把旅途照片画成带打孔边的透明水彩卡片，纸纹清楚，留白多，像夹在旅行本里的纪念卡。",
+   "tags": [
+    "水彩",
+    "纸纹",
+    "旅行",
+    "风景"
+   ],
+   "author": "gz-l",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/watercolor-travel-card",
+   "source": {
+    "repo": "gz-l/photo-to-poster-skills",
+    "path": "skills/watercolor-travel-card"
+   }
+  },
+  {
+   "slug": "impasto-miniature-landscape",
+   "name": "厚涂微缩景观",
+   "form": "绘画与插画",
+   "summary": "用调色刀式的厚油彩把场景堆成一块立体的小世界，笔触有高度，适合风景和建筑。",
+   "tags": [
+    "油画",
+    "厚涂",
+    "风景",
+    "建筑"
+   ],
+   "author": "gz-l",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/impasto-miniature-landscape",
+   "source": {
+    "repo": "gz-l/photo-to-poster-skills",
+    "path": "skills/impasto-miniature-landscape"
+   }
+  },
+  {
+   "slug": "papercraft-travel-diorama",
+   "name": "纸艺微缩场景",
+   "form": "立体与材质",
+   "summary": "把照片里的场景做成卡纸、软陶和薄木拼出的 3D 微缩模型，像一张立体明信片。",
+   "tags": [
+    "手工",
+    "3D",
+    "纸",
+    "木",
+    "旅行",
+    "建筑"
+   ],
+   "author": "gz-l",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/papercraft-travel-diorama",
+   "source": {
+    "repo": "gz-l/photo-to-poster-skills",
+    "path": "skills/papercraft-travel-diorama"
+   }
+  },
+  {
+   "slug": "isometric-healing-blocks",
+   "name": "等距积木",
+   "form": "立体与材质",
+   "summary": "把照片主体重构成圆角的等距积木雕塑，配色柔和，童趣但不幼稚。",
+   "tags": [
+    "3D",
+    "等距",
+    "治愈"
+   ],
+   "author": "gz-l",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/isometric-healing-blocks",
+   "source": {
+    "repo": "gz-l/photo-to-poster-skills",
+    "path": "skills/isometric-healing-blocks"
+   }
+  },
+  {
+   "slug": "organic-knit",
+   "name": "毛线针织",
+   "form": "立体与材质",
+   "summary": "把照片变成毛线编织和毛毡拼成的画面，针脚和绒毛都看得见，色调温暖。",
+   "tags": [
+    "织物",
+    "毛线",
+    "毛毡",
+    "温暖"
+   ],
+   "author": "NalaZhang27",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/organic-knit",
+   "source": {
+    "repo": "NalaZhang27/photo-to-organic-knit",
+    "path": "photo-to-organic-knit"
+   }
+  },
+  {
+   "slug": "photo-stamp-archive",
+   "name": "邮票档案",
+   "form": "卡片与档案",
+   "summary": "把照片做成带齿孔和面值的邮票，再排成一页集邮册式的档案。",
+   "tags": [
+    "印刷品",
+    "档案",
+    "旅行"
+   ],
+   "author": "Dlcccc71913",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/photo-stamp-archive",
+   "source": {
+    "repo": "Dlcccc71913/skill-make-photo-stamp-archive",
+    "path": ""
+   }
+  },
+  {
+   "slug": "mono-color",
+   "name": "单色油墨印刷",
+   "form": "海报与版式",
+   "summary": "只用一种油墨印在暖色纸上，半调网点做明暗，大块留白。",
+   "tags": [
+    "印刷",
+    "单色",
+    "网点"
+   ],
+   "author": "yanliudesign",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/mono-color",
+   "source": {
+    "repo": "yanliudesign/mono-color-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "gc-minimal-zine",
+   "name": "极简 Zine 海报",
+   "form": "海报与版式",
+   "summary": "把照片裁成一张安静的独立杂志海报，图少字少，靠构图和留白说话。",
+   "tags": [
+    "版式",
+    "留白",
+    "安静"
+   ],
+   "author": "LiamGvchi",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/gc-minimal-zine",
+   "source": {
+    "repo": "LiamGvchi/gc-minimal-zine-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "surreal-pop-collage",
+   "name": "超现实波普拼贴",
+   "form": "抽象与超现实",
+   "summary": "黑白照片做现实底，叠上平涂色块和不合比例的巨大物件，荒诞又醒目。",
+   "tags": [
+    "拼贴",
+    "高饱和",
+    "荒诞"
+   ],
+   "author": "2998980-hue",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/surreal-pop-collage",
+   "source": {
+    "repo": "2998980-hue/surreal-pop-collage",
+    "path": ""
+   }
+  },
+  {
+   "slug": "travel-sketch",
+   "name": "细线旅行速写",
+   "form": "绘画与插画",
+   "summary": "用松散的细线快速勾出场景，线条不封闭，像在路边随手画下的速写。",
+   "tags": [
+    "线稿",
+    "旅行",
+    "街景"
+   ],
+   "author": "liigoQi",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/travel-sketch",
+   "source": {
+    "repo": "liigoQi/photo-to-travel-sketch",
+    "path": ""
+   }
+  },
+  {
+   "slug": "pixel-dissolve-landscape",
+   "name": "像素消散风景",
+   "form": "绘画与插画",
+   "summary": "用少量颜色的像素块重建画面中心，四周慢慢散进留白，像正在淡去的记忆。",
+   "tags": [
+    "像素",
+    "留白"
+   ],
+   "author": "gz-l",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/pixel-dissolve-landscape",
+   "source": {
+    "repo": "gz-l/photo-to-poster-skills",
+    "path": "skills/pixel-dissolve-landscape"
+   }
+  },
+  {
+   "slug": "observational-pen-wash",
+   "name": "钢笔淡彩手记",
+   "form": "绘画与插画",
+   "summary": "断续的钢笔线稿加几处透明淡彩，大面积留白，像旅行手记里的一页。",
+   "tags": [
+    "钢笔",
+    "淡彩",
+    "旅行"
+   ],
+   "author": "gz-l",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/observational-pen-wash",
+   "source": {
+    "repo": "gz-l/photo-to-poster-skills",
+    "path": "skills/observational-pen-wash"
+   }
+  },
+  {
+   "slug": "pixel-style-poster",
+   "name": "点阵半色调",
+   "form": "海报与版式",
+   "summary": "用点阵和半色调提取画面元素，薄荷绿色系，带印刷网点的颗粒感。",
+   "tags": [
+    "印刷",
+    "网点",
+    "薄荷绿"
+   ],
+   "author": "v92388375-gif",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/pixel-style-poster",
+   "source": {
+    "repo": "v92388375-gif/pixel-style-poster-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "deconstructed-duotone",
+   "name": "九宫格解构双色",
+   "form": "海报与版式",
+   "summary": "上半部分把照片切成九宫格做双色处理，下半部分留白配小字，平面结构感强。",
+   "tags": [
+    "版式",
+    "双色",
+    "网格"
+   ],
+   "author": "lixorn",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/deconstructed-duotone",
+   "source": {
+    "repo": "lixorn/deconstructed-duotone-poster",
+    "path": "deconstructed-duotone-poster"
+   }
+  },
+  {
+   "slug": "memory-archive",
+   "name": "编辑风记忆档案",
+   "form": "卡片与档案",
+   "summary": "把照片排进一页编辑风格的档案，配标注和编号，像整理过的私人记忆。",
+   "tags": [
+    "版式",
+    "档案"
+   ],
+   "author": "sbj61188-lab",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/memory-archive",
+   "source": {
+    "repo": "sbj61188-lab/compose-photo-memory-archive",
+    "path": ""
+   }
+  },
+  {
+   "slug": "minimal-illustration",
+   "name": "极简插画",
+   "form": "绘画与插画",
+   "summary": "把照片简化成几块平涂形状和少量线条的插画。",
+   "tags": [
+    "插画",
+    "平涂"
+   ],
+   "author": "iamkong",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/minimal-illustration",
+   "source": {
+    "repo": "iamkong/photo-to-minimal-illustration",
+    "path": ""
+   }
+  },
+  {
+   "slug": "neil-quentin",
+   "name": "纸浆印刷海报",
+   "form": "海报与版式",
+   "summary": "高饱和色块配粗糙的纸浆印刷质感，把照片重构成一张海报。",
+   "tags": [
+    "印刷",
+    "高饱和",
+    "纸浆"
+   ],
+   "author": "Nealsun1993",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/neil-quentin",
+   "source": {
+    "repo": "Nealsun1993/neil-quentin",
+    "path": ""
+   }
+  },
+  {
+   "slug": "journal-material",
+   "name": "手帐素材",
+   "form": "拼贴与手帐",
+   "summary": "把照片拆成一组复古水粉质感的手帐贴纸，输出透明底素材合集。",
+   "tags": [
+    "水粉",
+    "手帐"
+   ],
+   "author": "emmaCCdesign",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/journal-material",
+   "source": {
+    "repo": "emmaCCdesign/make-journal-material-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "tea-doodle",
+   "name": "茶饮涂鸦海报",
+   "form": "拼贴与手帐",
+   "summary": "粗黑线条的随手涂鸦叠在照片上，轻松好玩，适合做社交平台配图。",
+   "tags": [
+    "涂鸦",
+    "轻松"
+   ],
+   "author": "yinxiaowai",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/tea-doodle",
+   "source": {
+    "repo": "yinxiaowai/heytea-doodle-poster",
+    "path": "skills/heytea-doodle-poster"
+   }
+  },
+  {
+   "slug": "gathered-scenes",
+   "name": "场景拼贴小志",
+   "form": "拼贴与手帐",
+   "summary": "把实拍场景提炼后重新拼成手工质感的拼贴小志。",
+   "tags": [
+    "拼贴",
+    "版式"
+   ],
+   "author": "Zeejay0",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/gathered-scenes",
+   "source": {
+    "repo": "Zeejay0/gathered-scenes-zine-skill",
+    "path": "skills/scenes-gathered-zine-v1-3"
+   }
+  },
+  {
+   "slug": "scene-to-art-lab",
+   "name": "场景艺术指导海报",
+   "form": "海报与版式",
+   "summary": "把照片转成带艺术指导意味的原创海报。",
+   "tags": [
+    "海报"
+   ],
+   "author": "N1kO724",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/scene-to-art-lab",
+   "source": {
+    "repo": "N1kO724/scene-to-art-lab",
+    "path": "scene-to-art-lab"
+   }
+  },
+  {
+   "slug": "selective-ink",
+   "name": "选择性淡墨速写",
+   "form": "水墨与国风",
+   "summary": "钢笔淡墨速写，只画取舍后留下的部分，大量留白。",
+   "tags": [
+    "钢笔",
+    "淡墨"
+   ],
+   "author": "joeyhu1108-maker",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/selective-ink",
+   "source": {
+    "repo": "joeyhu1108-maker/selective-ink-sketch",
+    "path": ""
+   }
+  },
+  {
+   "slug": "sunwoven",
+   "name": "大色块编辑插画",
+   "form": "绘画与插画",
+   "summary": "用大胆的色块构成编辑风插画。",
+   "tags": [
+    "插画",
+    "色块"
+   ],
+   "author": "wen3140",
+   "license": "PolyForm NC",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/sunwoven",
+   "source": {
+    "repo": "wen3140/sunwoven-reverie",
+    "path": "sunwoven-reverie"
+   }
+  },
+  {
+   "slug": "xxd-panel",
+   "name": "独立图像设计合集",
+   "form": "海报与版式",
+   "summary": "一个独立图像设计 skill，附八组示例方向。",
+   "tags": [
+    "综合"
+   ],
+   "author": "nevertoday",
+   "license": "PolyForm NC",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/xxd-panel",
+   "source": {
+    "repo": "nevertoday/xxd-panel-115",
+    "path": ""
+   }
+  },
+  {
+   "slug": "muge-diptych",
+   "name": "花语上下双联",
+   "form": "拼贴与手帐",
+   "summary": "上下两联的艺术志拼贴，以花为线索连接上下两张图。",
+   "tags": [
+    "拼贴",
+    "双联"
+   ],
+   "author": "Yeshmuge",
+   "license": "CC-BY-NC-4.0",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/muge-diptych",
+   "source": {
+    "repo": "Yeshmuge/muge-photo-diptych",
+    "path": "skills/muge-photo-diptych"
+   }
+  },
+  {
+   "slug": "travel-abstraction",
+   "name": "稀疏旅行抽象",
+   "form": "抽象与超现实",
+   "summary": "把旅行照片提炼成元素很少的编辑风抽象画。",
+   "tags": [
+    "抽象"
+   ],
+   "author": "Evianis",
+   "license": "仅源码可见",
+   "notice": "作者许可不允许修改或二次分发这个 Skill",
+   "page": "/styles/travel-abstraction",
+   "source": {
+    "repo": "Evianis/travel-photo-abstraction",
+    "path": "travel-photo-abstraction"
+   }
+  },
+  {
+   "slug": "photo-abstract-editorial",
+   "name": "抽象面板编辑",
+   "form": "抽象与超现实",
+   "summary": "把照片做成由抽象面板组成的编辑作品，也能出印象派效果。",
+   "tags": [
+    "抽象",
+    "版式"
+   ],
+   "author": "kwhi6693-web",
+   "license": "AGPL-3.0",
+   "notice": "修改并公开发布这个 Skill 时须按同一许可开源",
+   "page": "/styles/photo-abstract-editorial",
+   "source": {
+    "repo": "kwhi6693-web/photo-abstract-editorial",
+    "path": ""
+   }
+  },
+  {
+   "slug": "daily-photo",
+   "name": "高饱和情绪海报",
+   "form": "海报与版式",
+   "summary": "把日常照片重构成 3:4 的高饱和情绪编辑海报。",
+   "tags": [
+    "海报",
+    "高饱和"
+   ],
+   "author": "luji12",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/daily-photo",
+   "source": {
+    "repo": "luji12/daily-photo-playground",
+    "path": ""
+   }
+  },
+  {
+   "slug": "flash4start",
+   "name": "油画风 SVG",
+   "form": "绘画与插画",
+   "summary": "把照片重绘成油画笔触的 SVG 矢量图。",
+   "tags": [
+    "油画",
+    "矢量"
+   ],
+   "author": "Buantum",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/flash4start",
+   "source": {
+    "repo": "Buantum/flash4start_light",
+    "path": ""
+   }
+  },
+  {
+   "slug": "zone-material",
+   "name": "材质浮雕装置",
+   "form": "立体与材质",
+   "summary": "把照片转成材质艺术浮雕和装置效果。",
+   "tags": [
+    "材质",
+    "3D"
+   ],
+   "author": "joeyhu1108-maker",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/zone-material",
+   "source": {
+    "repo": "joeyhu1108-maker/ZONE-Material-art",
+    "path": ""
+   }
+  },
+  {
+   "slug": "zine-composition",
+   "name": "9:16 Zine 构图",
+   "form": "海报与版式",
+   "summary": "把照片做成 9:16 的稀疏编辑构图海报。",
+   "tags": [
+    "版式"
+   ],
+   "author": "ink7011",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/zine-composition",
+   "source": {
+    "repo": "ink7011/zine-composition-beauty",
+    "path": "zine-composition-beauty"
+   }
+  },
+  {
+   "slug": "monet-impressionist",
+   "name": "印象派光色",
+   "form": "绘画与插画",
+   "summary": "印象派风格的照片重绘，强调光和色的交织。",
+   "tags": [
+    "油画"
+   ],
+   "author": "tomot-ch",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/monet-impressionist",
+   "source": {
+    "repo": "tomot-ch/monet-impressionist-style",
+    "path": ""
+   }
+  },
+  {
+   "slug": "industrial-night",
+   "name": "工业夜景",
+   "form": "光色与氛围",
+   "summary": "把手机夜景重构成工业感的环境夜景：薄雾、冷暖补色，只在局部点亮霓虹。",
+   "tags": [
+    "摄影",
+    "夜景",
+    "城市"
+   ],
+   "author": "Nealsun1993",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/industrial-night",
+   "source": {
+    "repo": "Nealsun1993/neil-night-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "fuse-bead-poster",
+   "name": "拼豆海报",
+   "form": "立体与材质",
+   "summary": "上半张是原照，下半张用热熔拼豆把同一场景拼出来，颗粒有实体感，不是像素滤镜。",
+   "tags": [
+    "手工",
+    "拼豆",
+    "上下双联"
+   ],
+   "author": "YQ826",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/fuse-bead-poster",
+   "source": {
+    "repo": "YQ826/yq-fuse-bead-poster",
+    "path": "skill/yq-fuse-bead-poster"
+   }
+  },
+  {
+   "slug": "tiny-memory-sketch",
+   "name": "微型记忆插画",
+   "form": "绘画与插画",
+   "summary": "在大片白纸上画几处很小的手绘记忆片段，局部点一点亮色，配细小的手写字。",
+   "tags": [
+    "手绘",
+    "留白"
+   ],
+   "author": "dacnay816y62-hub",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/tiny-memory-sketch",
+   "source": {
+    "repo": "dacnay816y62-hub/photo-revival",
+    "path": ""
+   }
+  },
+  {
+   "slug": "paper-signal",
+   "name": "纸感小志版式",
+   "form": "海报与版式",
+   "summary": "先判断照片是人物、风景还是物件，再选对应的纸感小志构图和印刷工艺。",
+   "tags": [
+    "版式",
+    "印刷",
+    "纸"
+   ],
+   "author": "jiahuiqu17",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/paper-signal",
+   "source": {
+    "repo": "jiahuiqu17/paper-signal",
+    "path": "skills/paper-signal-art-director"
+   }
+  },
+  {
+   "slug": "monthly-postcard",
+   "name": "月历明信片",
+   "form": "卡片与档案",
+   "summary": "上方放完整原照，下方是一页水彩月历，配一段文学或音乐内容。",
+   "tags": [
+    "水彩",
+    "上下双联",
+    "明信片"
+   ],
+   "author": "shenchangyi",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/monthly-postcard",
+   "source": {
+    "repo": "shenchangyi/photo-to-monthly-zine-postcard",
+    "path": "skills/photo-to-monthly-zine-postcard"
+   }
+  },
+  {
+   "slug": "magnet-badge-zine",
+   "name": "冰箱贴小志",
+   "form": "卡片与档案",
+   "summary": "原照和一块纯色区域分开排，再从建筑或风景里提炼出一枚金边冰箱贴徽章。",
+   "tags": [
+    "版式",
+    "纪念品"
+   ],
+   "author": "wenlinwang1991",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/magnet-badge-zine",
+   "source": {
+    "repo": "wenlinwang1991/magnet-zine-poster-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "image-score",
+   "name": "图像乐谱",
+   "form": "抽象与超现实",
+   "summary": "把照片的节奏、方向和疏密翻译成一张实验音乐的图形谱，不是真的转写乐谱。",
+   "tags": [
+    "抽象",
+    "图形",
+    "音乐"
+   ],
+   "author": "ninggele",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/image-score",
+   "source": {
+    "repo": "ninggele/image-as-score",
+    "path": ""
+   }
+  },
+  {
+   "slug": "steampunk",
+   "name": "蒸汽朋克机械",
+   "form": "立体与材质",
+   "summary": "把照片改造成黄铜、齿轮、铆钉和维多利亚工程图组成的机械世界。",
+   "tags": [
+    "3D",
+    "金属"
+   ],
+   "author": "tutao0123",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/steampunk",
+   "source": {
+    "repo": "tutao0123/steampunk-image-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "retro-editorial-print",
+   "name": "复古编辑印刷",
+   "form": "海报与版式",
+   "summary": "提供日式档案印刷、世纪中期现代图形、孔版和标本页几种复古编辑插画方向。",
+   "tags": [
+    "印刷",
+    "插画"
+   ],
+   "author": "liuzihe849-png",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/retro-editorial-print",
+   "source": {
+    "repo": "liuzihe849-png/ai-editorial-print-studio",
+    "path": ""
+   }
+  },
+  {
+   "slug": "watercolor-echo",
+   "name": "水彩回声",
+   "form": "卡片与档案",
+   "summary": "上下各占一半：上面是原照，下面是一小块淡淡的水彩记忆图形，边缘故意不画完。",
+   "tags": [
+    "水彩",
+    "上下双联",
+    "留白"
+   ],
+   "author": "zhouaria28-cloud",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/watercolor-echo",
+   "source": {
+    "repo": "zhouaria28-cloud/photo-ink-echo",
+    "path": ""
+   }
+  },
+  {
+   "slug": "zine-postcard",
+   "name": "小志明信片",
+   "form": "卡片与档案",
+   "summary": "照片、一小幅手绘和从照片里取的三种颜色组成明信片正面，再配一张能用的背面。",
+   "tags": [
+    "手绘",
+    "版式",
+    "明信片"
+   ],
+   "author": "Whiplashzeb",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/zine-postcard",
+   "source": {
+    "repo": "Whiplashzeb/photo-to-zine-postcard",
+    "path": ""
+   }
+  },
+  {
+   "slug": "anime-80s-print",
+   "name": "八十年代动画印刷",
+   "form": "海报与版式",
+   "summary": "把照片或产品转成八十年代日本动画风的印刷品，如电影海报、杂志封面和丝网印；角色和标题须原创。",
+   "tags": [
+    "印刷",
+    "动画",
+    "复古"
+   ],
+   "author": "m-mahadi",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/anime-80s-print",
+   "source": {
+    "repo": "m-mahadi/anime-80s-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "washi-tape-collage",
+   "name": "和纸胶带拼贴",
+   "form": "拼贴与手帐",
+   "summary": "用半透明的和纸胶带一层层贴出照片主体，纸纹清楚，留白多。",
+   "tags": [
+    "拼贴",
+    "胶带",
+    "纸"
+   ],
+   "author": "sherlyryn",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/washi-tape-collage",
+   "source": {
+    "repo": "sherlyryn/make-tape-collage",
+    "path": ""
+   }
+  },
+  {
+   "slug": "cloud-doodle",
+   "name": "云朵涂鸦动物",
+   "form": "拼贴与手帐",
+   "summary": "不动原照的云和光影，只在云上添几笔黑色线条，把云点成小猫、小熊或兔子。只适用于有云的照片。",
+   "tags": [
+    "涂鸦",
+    "天空"
+   ],
+   "author": "haomiaomou-cmd",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/cloud-doodle",
+   "source": {
+    "repo": "haomiaomou-cmd/cloud-doodle-animal",
+    "path": ""
+   }
+  },
+  {
+   "slug": "map-postcard",
+   "name": "旅行地图明信片",
+   "form": "卡片与档案",
+   "summary": "识别照片拍摄地，取真实的地图轮廓做成透明图层叠在原照上，像一张地图明信片。需要联网取地图数据。",
+   "tags": [
+    "地图",
+    "版式",
+    "旅行",
+    "明信片"
+   ],
+   "author": "niuzipai-gif",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/map-postcard",
+   "source": {
+    "repo": "niuzipai-gif/travel-map-postcard-skill",
+    "path": "skills/travel-map-postcard"
+   }
+  },
+  {
+   "slug": "archaeology-notebook",
+   "name": "考古研究手记",
+   "form": "卡片与档案",
+   "summary": "把青铜、玉器、陶器等文物照片画进一页复古考古手记，保留器形、纹样和铭文。只适用于文物照片。",
+   "tags": [
+    "手绘",
+    "档案",
+    "文物"
+   ],
+   "author": "Zhimanaiyou",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/archaeology-notebook",
+   "source": {
+    "repo": "Zhimanaiyou/museum-archaeology-notebook",
+    "path": "skills/museum-archaeology-notebook"
+   }
+  },
+  {
+   "slug": "riso-poster",
+   "name": "孔版套印海报",
+   "form": "海报与版式",
+   "summary": "两三种颜色套印，带颗粒、轻微错版和纸感，做成一张安静的档案式海报。",
+   "tags": [
+    "印刷",
+    "颗粒",
+    "少色"
+   ],
+   "author": "luckdvr",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/riso-poster",
+   "source": {
+    "repo": "luckdvr/photo-riso-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "film-print-look",
+   "name": "电影印相",
+   "form": "光色与氛围",
+   "summary": "在带擦痕的底板上并排原照和电影感的印相，加局部光晕、乳剂溢边、套色偏移和漏光。",
+   "tags": [
+    "胶片",
+    "颗粒",
+    "电影感"
+   ],
+   "author": "N1kO724",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/film-print-look",
+   "source": {
+    "repo": "N1kO724/kodak-2383-film-look",
+    "path": "skills/kodak-2383-film-look"
+   }
+  },
+  {
+   "slug": "vinyl-sleeve",
+   "name": "唱片封套",
+   "form": "卡片与档案",
+   "summary": "把照片设计成一张虚构唱片的正反封套和 A/B 面，用纸张、油墨和唱片材质讲一个故事。",
+   "tags": [
+    "版式",
+    "印刷",
+    "音乐"
+   ],
+   "author": "liigoQi",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/vinyl-sleeve",
+   "source": {
+    "repo": "liigoQi/vinyl-image-generator",
+    "path": ""
+   }
+  },
+  {
+   "slug": "silhouette-diptych",
+   "name": "群像剪影双联",
+   "form": "立体与材质",
+   "summary": "把一张群像做成上下互补的纸艺双联：一半用实色剪影盖住人物，另一半从纸面镂出真实人物。",
+   "tags": [
+    "纸艺",
+    "上下双联",
+    "合影"
+   ],
+   "author": "liuzihe849-png",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/silhouette-diptych",
+   "source": {
+    "repo": "liuzihe849-png/silhouette-group-collage",
+    "path": "silhouette-group-collage"
+   }
+  },
+  {
+   "slug": "relic-print",
+   "name": "照片遗物版画",
+   "form": "抽象与超现实",
+   "summary": "上半张保留照片，下半张把建筑、倒影或人群压成一幅少色版画，留白多，像一件记忆标本。",
+   "tags": [
+    "版画",
+    "上下双联",
+    "留白"
+   ],
+   "author": "wnby",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/relic-print",
+   "source": {
+    "repo": "wnby/photo-relic-editorial",
+    "path": ""
+   }
+  },
+  {
+   "slug": "product-doodle",
+   "name": "商品涂鸦海报",
+   "form": "拼贴与手帐",
+   "summary": "保留真实的食物或商品，在上面加黑线涂鸦和手写字，做成轻松的商品配图。",
+   "tags": [
+    "涂鸦",
+    "商品",
+    "食物"
+   ],
+   "author": "Hchen1218",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/product-doodle",
+   "source": {
+    "repo": "Hchen1218/heytea-style",
+    "path": ""
+   }
+  },
+  {
+   "slug": "food-tiny-people",
+   "name": "食物小人叙事",
+   "form": "拼贴与手帐",
+   "summary": "真实的食物和杯碗旁边画上手绘小人，讲一个轻松的小故事，配手写标题。",
+   "tags": [
+    "手绘",
+    "涂鸦",
+    "食物"
+   ],
+   "author": "shouna12358-png",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/food-tiny-people",
+   "source": {
+    "repo": "shouna12358-png/heytea-creative-style",
+    "path": "skills/heytea-style"
+   }
+  },
+  {
+   "slug": "comic-animation-redraw",
+   "name": "漫画动画转绘",
+   "form": "绘画与插画",
+   "summary": "参照一部知名动画电影的色板，把照片整体重绘成漫画动画画面，带波点、排线、网点和局部双色错版。",
+   "tags": [
+    "漫画",
+    "动画"
+   ],
+   "author": "chaneX69",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/comic-animation-redraw",
+   "source": {
+    "repo": "chaneX69/self-love",
+    "path": ""
+   }
+  },
+  {
+   "slug": "photo-flipbook",
+   "name": "照片翻页相册",
+   "form": "卡片与档案",
+   "summary": "整理一组照片，设计相册主题和跨页版式，生成一个能在本地打开的翻页相册网页。",
+   "tags": [
+    "网页",
+    "相册"
+   ],
+   "author": "HaichaoLihc",
+   "license": "MIT",
+   "notice": null,
+   "page": "/styles/photo-flipbook",
+   "source": {
+    "repo": "HaichaoLihc/create-photo-flipbook-ui",
+    "path": "skills/create-photo-flipbook-ui"
+   }
+  },
+  {
+   "slug": "contemporary-ink-poster",
+   "name": "当代墨水海报",
+   "form": "水墨与国风",
+   "summary": "当代编辑风的墨水晕染，纸张吸墨的痕迹清楚，留白很大，不走传统国画路线。",
+   "tags": [
+    "墨水",
+    "留白"
+   ],
+   "author": "TwentyfiveBTea",
+   "license": "AGPL-3.0",
+   "notice": "修改并公开发布这个 Skill 时须按同一许可开源",
+   "page": "/styles/contemporary-ink-poster",
+   "source": {
+    "repo": "TwentyfiveBTea/ink-wash-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "coarse-pixel",
+   "name": "粗颗粒像素",
+   "form": "绘画与插画",
+   "summary": "把主体做成颗粒粗、边缘柔和的抽象像素块，比细点阵更模糊。",
+   "tags": [
+    "像素"
+   ],
+   "author": "TwentyfiveBTea",
+   "license": "AGPL-3.0",
+   "notice": "修改并公开发布这个 Skill 时须按同一许可开源",
+   "page": "/styles/coarse-pixel",
+   "source": {
+    "repo": "TwentyfiveBTea/8bit-pixel-art",
+    "path": ""
+   }
+  },
+  {
+   "slug": "character-doodle",
+   "name": "角色极简手绘",
+   "form": "绘画与插画",
+   "summary": "输入一张角色参考图，保留角色轮廓和配色，画成白底的极简手绘生活小场景。",
+   "tags": [
+    "手绘",
+    "角色"
+   ],
+   "author": "LiamGvchi",
+   "license": "AGPL-3.0",
+   "notice": "修改并公开发布这个 Skill 时须按同一许可开源",
+   "page": "/styles/character-doodle",
+   "source": {
+    "repo": "LiamGvchi/gc-minimal-ip-doodle",
+    "path": ""
+   }
+  },
+  {
+   "slug": "y2k-pop-poster",
+   "name": "千禧撞色海报",
+   "form": "海报与版式",
+   "summary": "把主体从照片里切出来，加高饱和撞色描边、星芒、波点和短标题，像千禧年的杂志海报。",
+   "tags": [
+    "海报",
+    "高饱和"
+   ],
+   "author": "koinu32",
+   "license": "CC-BY-ND-4.0",
+   "notice": "作者许可不允许修改或二次分发这个 Skill",
+   "page": "/styles/y2k-pop-poster",
+   "source": {
+    "repo": "koinu32/y2k-pop-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "frosted-glass-color",
+   "name": "雾面玻璃色彩",
+   "form": "抽象与超现实",
+   "summary": "把照片提炼成层层叠叠的雾面玻璃抽象色块，可做双联、纯设计稿和多尺寸壁纸。",
+   "tags": [
+    "抽象",
+    "玻璃"
+   ],
+   "author": "nevertoday",
+   "license": "PolyForm NC",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/frosted-glass-color",
+   "source": {
+    "repo": "nevertoday/xxd-panel-072",
+    "path": ""
+   }
+  },
+  {
+   "slug": "clay-diorama",
+   "name": "软陶微缩地台",
+   "form": "立体与材质",
+   "summary": "上半张是原照，下半张把主体连同一小片地面做成圆角地台上的软陶微缩模型，粉调柔光。",
+   "tags": [
+    "软陶",
+    "3D",
+    "上下双联"
+   ],
+   "author": "nevertoday",
+   "license": "PolyForm NC",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/clay-diorama",
+   "source": {
+    "repo": "nevertoday/xxd-panel-344",
+    "path": ""
+   }
+  },
+  {
+   "slug": "ribbed-glass-cover",
+   "name": "棱纹玻璃封面",
+   "form": "海报与版式",
+   "summary": "像隔着竖条棱纹玻璃拍的近景封面：边缘竖向错开，暖色柔焦，配细衬线的杂志大标题。",
+   "tags": [
+    "版式",
+    "玻璃"
+   ],
+   "author": "nevertoday",
+   "license": "PolyForm NC",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/ribbed-glass-cover",
+   "source": {
+    "repo": "nevertoday/xxd-panel-346",
+    "path": ""
+   }
+  },
+  {
+   "slug": "quiet-abstract-editorial",
+   "name": "安静抽象编辑",
+   "form": "抽象与超现实",
+   "summary": "保留真实照片，再把画面的空间、颜色和节奏提炼成下方几块色块和笔触。",
+   "tags": [
+    "抽象",
+    "版式"
+   ],
+   "author": "ZzzLc0405",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/quiet-abstract-editorial",
+   "source": {
+    "repo": "ZzzLc0405/photo-abstract-editorial",
+    "path": ""
+   }
+  },
+  {
+   "slug": "four-grid-distill",
+   "name": "四格提炼",
+   "form": "抽象与超现实",
+   "summary": "2×2 四格：原照、诗意提炼、节奏结构、抽象表达，用一个取自原图的小母题串起来。",
+   "tags": [
+    "抽象",
+    "四格"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/four-grid-distill",
+   "source": {
+    "repo": "Starryear/S.011-Starryear-Field",
+    "path": ""
+   }
+  },
+  {
+   "slug": "absurd-stage",
+   "name": "荒诞舞台四格",
+   "form": "抽象与超现实",
+   "summary": "一格原照加三格空白舞台，用尺度错位、承托反转和不可能的循环讲同一个荒诞故事。",
+   "tags": [
+    "超现实",
+    "四格"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/absurd-stage",
+   "source": {
+    "repo": "Starryear/S.010-Starryear-Absurd",
+    "path": ""
+   }
+  },
+  {
+   "slug": "photo-identity",
+   "name": "影像成标",
+   "form": "海报与版式",
+   "summary": "把两到五张照片排成一张竖版视觉识别作品，配英文字和一个从原图提炼的标志。",
+   "tags": [
+    "版式",
+    "标志"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/photo-identity",
+   "source": {
+    "repo": "Starryear/S.008-Starryear-Logo",
+    "path": ""
+   }
+  },
+  {
+   "slug": "song-painting-triptych",
+   "name": "静观三联",
+   "form": "水墨与国风",
+   "summary": "竖向三段：原照、借宋画空间意识的超现实山水、最后收成一幅装裱式的极简余韵。",
+   "tags": [
+    "国画",
+    "三联"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/song-painting-triptych",
+   "source": {
+    "repo": "Starryear/S.009-Starryear-Song-Painting",
+    "path": ""
+   }
+  },
+  {
+   "slug": "twin-subject-clone",
+   "name": "双主体克隆",
+   "form": "抽象与超现实",
+   "summary": "中间保留原图，上下各取一个不同的主体做缩小、复制和倒置，排成纵向的超现实三联。",
+   "tags": [
+    "超现实",
+    "三联"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/twin-subject-clone",
+   "source": {
+    "repo": "Starryear/S.012-Starryear-Clone",
+    "path": ""
+   }
+  },
+  {
+   "slug": "artifact-five-collage",
+   "name": "文物五拼",
+   "form": "拼贴与手帐",
+   "summary": "上方排五张文物照片，下方用红黄蓝色块和文物之间的承托、穿越关系拼成超现实拼贴。",
+   "tags": [
+    "拼贴",
+    "文物"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/artifact-five-collage",
+   "source": {
+    "repo": "Starryear/S.013-Starryear-Artifact-collage",
+    "path": "",
+    "archive": {
+     "file": "【S.013】Starryear-Artifact-collage丨年·文物五拼.zip",
+     "dir": ""
+    }
+   }
+  },
+  {
+   "slug": "impression-stamp",
+   "name": "印象光色印章",
+   "form": "卡片与档案",
+   "summary": "摄影原貌、符号印记、印象派光色记忆三种状态并排，配英文旅行档案信息。",
+   "tags": [
+    "油画",
+    "印章",
+    "旅行"
+   ],
+   "author": "Starryear",
+   "license": "非商业",
+   "notice": "作者许可只允许非商业使用，商用须先取得作者授权",
+   "page": "/styles/impression-stamp",
+   "source": {
+    "repo": "Starryear/S.004-Starryear-Monet-Stamp",
+    "path": ""
+   }
+  },
+  {
+   "slug": "torn-scroll-ink",
+   "name": "碎卷水墨海报",
+   "form": "水墨与国风",
+   "summary": "碎纸卷轴拼贴配水墨纸感，加中文书法标题和一枚印章。",
+   "tags": [
+    "水墨",
+    "拼贴"
+   ],
+   "author": "Nealsun1993",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/torn-scroll-ink",
+   "source": {
+    "repo": "Nealsun1993/neil-ink-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "architecture-poster",
+   "name": "营造建筑海报",
+   "form": "海报与版式",
+   "summary": "从真实建筑和当地文化里提取材质和字形，做成图文互相遮挡的编辑海报。",
+   "tags": [
+    "版式",
+    "建筑"
+   ],
+   "author": "op7418",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/architecture-poster",
+   "source": {
+    "repo": "op7418/guizang-yingzao-skill",
+    "path": "yingzao"
+   }
+  },
+  {
+   "slug": "street-cartoon-people",
+   "name": "街拍卡通人物",
+   "form": "绘画与插画",
+   "summary": "保留真实街景，只把画面里的人换成黑墨或彩色的卡通角色。",
+   "tags": [
+    "插画",
+    "街景",
+    "人物"
+   ],
+   "author": "dacnay816y62-hub",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/street-cartoon-people",
+   "source": {
+    "repo": "dacnay816y62-hub/street-photo-illustration-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "wordless-ink",
+   "name": "无字水墨解构",
+   "form": "水墨与国风",
+   "summary": "在旧纸上用剪影或寥寥几笔水墨轮廓留下原来的场景，不配任何文字。",
+   "tags": [
+    "水墨",
+    "旧纸"
+   ],
+   "author": "121dyy",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/wordless-ink",
+   "source": {
+    "repo": "121dyy/dyy_photo_deconstruct",
+    "path": ""
+   }
+  },
+  {
+   "slug": "minimal-magazine",
+   "name": "极简杂志版式",
+   "form": "海报与版式",
+   "summary": "把照片当抽象素材，用大留白和跟着内容走的排版做成极简杂志页。",
+   "tags": [
+    "版式",
+    "留白"
+   ],
+   "author": "dacnay816y62-hub",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/minimal-magazine",
+   "source": {
+    "repo": "dacnay816y62-hub/FANTASY-Minimal-Magazine",
+    "path": ""
+   }
+  },
+  {
+   "slug": "tv-rephotograph",
+   "name": "电视翻拍感",
+   "form": "光色与氛围",
+   "summary": "像对着电视屏幕重新拍了一遍：荧光点阵、屏幕光和信号衰减。",
+   "tags": [
+    "摄影",
+    "扫描线"
+   ],
+   "author": "fihaaade",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/tv-rephotograph",
+   "source": {
+    "repo": "fihaaade/skills",
+    "path": "phosphor-relay-style"
+   }
+  },
+  {
+   "slug": "starlit-float",
+   "name": "星夜悬浮",
+   "form": "光色与氛围",
+   "summary": "让一件物体悬在深蓝夜空里，带星芒、光晕、色散和胶片颗粒。",
+   "tags": [
+    "摄影",
+    "夜景"
+   ],
+   "author": "fihaaade",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/starlit-float",
+   "source": {
+    "repo": "fihaaade/skills",
+    "path": "starlit-relic"
+   }
+  },
+  {
+   "slug": "handdrawn-label-poster",
+   "name": "手绘邮签海报",
+   "form": "拼贴与手帐",
+   "summary": "把原照压暗，上面叠高饱和的手绘邮签，照片和插画层次分明。",
+   "tags": [
+    "手绘",
+    "拼贴"
+   ],
+   "author": "luji12",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/handdrawn-label-poster",
+   "source": {
+    "repo": "luji12/handdrawn-photo-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "charcoal-line-zine",
+   "name": "炭笔线条小志",
+   "form": "海报与版式",
+   "summary": "在照片上扫几道宽炭笔线，加一条结构性的彩色涂鸦和实验性的文字排版。",
+   "tags": [
+    "炭笔",
+    "版式"
+   ],
+   "author": "zhu930824",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/charcoal-line-zine",
+   "source": {
+    "repo": "zhu930824/poetic-line-zine-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "soft-travel-abstraction",
+   "name": "柔和旅行抽象",
+   "form": "抽象与超现实",
+   "summary": "照片配一块抽象面板，提炼得很轻，画面仍然认得出来。",
+   "tags": [
+    "抽象",
+    "旅行"
+   ],
+   "author": "wnby",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/soft-travel-abstraction",
+   "source": {
+    "repo": "wnby/travel-photo-soft-abstraction",
+    "path": "skills/travel-photo-soft-abstraction"
+   }
+  },
+  {
+   "slug": "modern-chinese-poster",
+   "name": "现代中式海报",
+   "form": "水墨与国风",
+   "summary": "从茶器、园林、工艺照片里提取结构和材质，让中文标题参与构图，做成当代东方海报。",
+   "tags": [
+    "海报",
+    "国风"
+   ],
+   "author": "dacnay816y62-hub",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/modern-chinese-poster",
+   "source": {
+    "repo": "dacnay816y62-hub/chinese-poster-skill",
+    "path": "chinese-style-poster-skill"
+   }
+  },
+  {
+   "slug": "sky-minimap",
+   "name": "天空小地图水印",
+   "form": "卡片与档案",
+   "summary": "在旅行照片的天空或空白处叠一张半透明白线小地图，标出地标、地名、坐标和指北针。",
+   "tags": [
+    "地图",
+    "旅行"
+   ],
+   "author": "cconlyprivate",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/sky-minimap",
+   "source": {
+    "repo": "cconlyprivate/travel-photo-minimap",
+    "path": ""
+   }
+  },
+  {
+   "slug": "red-papercut",
+   "name": "中国红剪纸",
+   "form": "水墨与国风",
+   "summary": "把照片里的人物、建筑或动物转成能真的剪出来的红色剪纸图样，附难度和建议尺寸。",
+   "tags": [
+    "剪纸",
+    "国风"
+   ],
+   "author": "echoLYY57",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/red-papercut",
+   "source": {
+    "repo": "echoLYY57/create-jianzhi-pattern",
+    "path": "create-jianzhi-pattern"
+   }
+  },
+  {
+   "slug": "reality-restaged",
+   "name": "现实重新布景",
+   "form": "抽象与超现实",
+   "summary": "保留人物的动作和关系，用尺度反差、大片色墙和不可能的空间重新布景，仍是摄影质感。",
+   "tags": [
+    "摄影",
+    "超现实"
+   ],
+   "author": "traveler0621",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/reality-restaged",
+   "source": {
+    "repo": "traveler0621/reality-restaged",
+    "path": ""
+   }
+  },
+  {
+   "slug": "culture-fragment-poster",
+   "name": "文化碎片海报",
+   "form": "海报与版式",
+   "summary": "从织物、器物、建筑里提取结构和颜色，用大字、图像窗口和层级排版做成现代文化海报。",
+   "tags": [
+    "海报",
+    "版式"
+   ],
+   "author": "dacnay816y62-hub",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/culture-fragment-poster",
+   "source": {
+    "repo": "dacnay816y62-hub/culture-fragment-poster-engine",
+    "path": "culture-fragment-poster-engine"
+   }
+  },
+  {
+   "slug": "crt-interface",
+   "name": "复古电脑界面",
+   "form": "绘画与插画",
+   "summary": "把主体重画成粗像素和棋盘抖色，放进复古软件窗口，加扫描线、辉光和屏幕弧形畸变。",
+   "tags": [
+    "像素",
+    "扫描线"
+   ],
+   "author": "TaiT-tt",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/crt-interface",
+   "source": {
+    "repo": "TaiT-tt/tait-crt-interface-skill",
+    "path": ""
+   }
+  },
+  {
+   "slug": "color-chip-poster",
+   "name": "色卡海报",
+   "form": "卡片与档案",
+   "summary": "把照片放进一张白色卡片，主体稍微伸出边框，底色和色号标签取自照片本身。",
+   "tags": [
+    "版式",
+    "柔和"
+   ],
+   "author": "tluy",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/color-chip-poster",
+   "source": {
+    "repo": "tluy/create-pantone-photo-poster",
+    "path": ""
+   }
+  },
+  {
+   "slug": "paper-spirit-zine",
+   "name": "纸灵小志",
+   "form": "抽象与超现实",
+   "summary": "上方留真实照片，下方让山脊、星河和水线在纸上变成有生命感的余像。",
+   "tags": [
+    "纸艺",
+    "抽象"
+   ],
+   "author": "wnby",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/paper-spirit-zine",
+   "source": {
+    "repo": "wnby/paper-spirit-zine",
+    "path": "skills/paper-spirit-zine"
+   }
+  },
+  {
+   "slug": "eastern-ink-diptych",
+   "name": "淡彩水墨双联",
+   "form": "水墨与国风",
+   "summary": "上方保留照片，下方转成淡彩水墨，只用几块颜色和柔和的墨迹，留白充足。",
+   "tags": [
+    "水墨",
+    "淡彩",
+    "上下双联"
+   ],
+   "author": "Hiseaa",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/eastern-ink-diptych",
+   "source": {
+    "repo": "Hiseaa/eastern-ink-photo-diptych",
+    "path": "",
+    "archive": {
+     "file": "eastern-ink-photo-diptych.zip",
+     "dir": "eastern-ink-photo-diptych"
+    }
+   }
+  },
+  {
+   "slug": "vertical-quartet",
+   "name": "纵向四联重构",
+   "form": "抽象与超现实",
+   "summary": "四条横幅上下叠：第一条是原照，往下逐步提炼记忆和结构，最后融成一个余像。",
+   "tags": [
+    "抽象",
+    "四联"
+   ],
+   "author": "Starryear",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/vertical-quartet",
+   "source": {
+    "repo": "Starryear/S.001-Starryear-Abstract-Quartet",
+    "path": ""
+   }
+  },
+  {
+   "slug": "threefold-memory",
+   "name": "三重记忆",
+   "form": "抽象与超现实",
+   "summary": "中间是原照，上方是几何碎片化的记忆，下方是从原图关系提炼出的空间信号图。",
+   "tags": [
+    "抽象",
+    "三联"
+   ],
+   "author": "Starryear",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/threefold-memory",
+   "source": {
+    "repo": "Starryear/S.002-Starryear-Threefold-Memory",
+    "path": ""
+   }
+  },
+  {
+   "slug": "odyssey-diptych",
+   "name": "史诗叙事双联",
+   "form": "抽象与超现实",
+   "summary": "上方原照，下方把照片的形状、颜色、数量和方向对应到一段远航史诗的情节上。",
+   "tags": [
+    "抽象",
+    "叙事",
+    "上下双联"
+   ],
+   "author": "Starryear",
+   "license": "无许可文件",
+   "notice": "仓库没有许可文件，作者保留所有权利，仅供个人使用",
+   "page": "/styles/odyssey-diptych",
+   "source": {
+    "repo": "Starryear/S.003-Starryear-Odyssey",
+    "path": ""
+   }
+  }
+ ]
+}
