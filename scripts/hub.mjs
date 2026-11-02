@@ -284,30 +284,42 @@ function github() {
   return headers;
 }
 
+// 断连时再试一次；服务端明确拒绝（4xx/5xx）就不重试，免得白耗 GitHub 限额
 async function getJson(url, headers = {}) {
-  try {
-    const res = await fetch(url, { headers, signal: AbortSignal.timeout(20_000) });
-    return res.ok ? await res.json() : null;
-  } catch {
-    return null;
+  for (let i = 0; i < 2; i++) {
+    try {
+      const res = await fetch(url, { headers, signal: AbortSignal.timeout(20_000) });
+      return res.ok ? await res.json() : null;
+    } catch (e) {
+      debug(`${e.name} ${url}`);
+      if (!i) await new Promise((r) => setTimeout(r, 2000));
+    }
   }
+  return null;
 }
 
-// 每个文件依次试各个来源；超时按文件大小放宽（按 30KB/s 算，至少 30 秒）
+// 每轮把各个来源都试一遍，最多 3 轮，轮间等 2、4 秒：国内连 GitHub / jsDelivr 常有十来秒的断连，
+// 等一下再试通常就好。超时按文件大小放宽（按 30KB/s 算，至少 30 秒）
 async function download(repo, ref, p, size = 0) {
   const timeout = Math.max(30_000, Math.ceil((size / 30_000) * 1000));
-  for (const url of urls(repo, ref, p)) {
-    for (let i = 0; i < 2; i++) {
+  const sources = urls(repo, ref, p);
+  const dead = new Set();
+  for (let round = 0; round < 3; round++) {
+    if (round) await new Promise((r) => setTimeout(r, 2000 * round));
+    for (const url of sources) {
+      if (dead.has(url)) continue;
       const t = Date.now();
       try {
         const res = await fetch(url, { signal: AbortSignal.timeout(timeout) });
         if (res.ok) return Buffer.from(await res.arrayBuffer());
         debug(`${res.status} ${Date.now() - t}ms ${url}`);
-        if (res.status === 404 || res.status === 403) break;
+        // 文件确实不在这个来源上，后面几轮不再试它
+        if (res.status === 404 || res.status === 403) dead.add(url);
       } catch (e) {
         debug(`${e.name} ${Date.now() - t}ms ${url}`);
       }
     }
+    if (dead.size === sources.length) break;
   }
   throw new Error(`下载失败：${repo}/${p}`);
 }
